@@ -15,7 +15,8 @@ public class JarScanner
 		JAVA_1_4((char)0x30, "1.4"),
 		JAVA_5((char)0x31, "1.5"),
 		JAVA_6((char)0x32, "1.6"),
-		JAVA_7((char)0x33, "1.7");
+		JAVA_7((char)0x33, "1.7"),
+		JAVA_8((char)0x34, "1.8");
 
 		private char majorVersionNumber;
 		private String sourceName;
