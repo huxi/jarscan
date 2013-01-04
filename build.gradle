@@ -1,0 +1,9 @@
+apply plugin: 'application'
+apply plugin: 'idea'
+
+mainClassName = 'JarScanner'
+
+task wrapper(type: Wrapper) {
+  gradleVersion = "1.3"
+}
+
